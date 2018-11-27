@@ -1,0 +1,22 @@
+{
+  "name": "dldcatalog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --harmony server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hzemzem/dldcatalog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hzemzem/dldcatalog/issues"
+  },
+  "homepage": "https://github.com/hzemzem/dldcatalog#readme"
+}
