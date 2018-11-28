@@ -13,7 +13,7 @@ module.exports = function(app) {
     res.json(newArr2);
   });
   app.get('/api/options-list', function(req, res) {
-    res.json(optionsArr);
+    res.json(uniqueOptions);
   });
   app.get('/api/extrafilteredjson', function(req, res) {
     res.json(newArr3);
@@ -100,3 +100,9 @@ const entries3 = newArr2.forEach(entry3 => {
 });
 
 // console.log(newArr3);
+
+
+
+var uniqueOptions = optionsArr.filter(function(item, index){
+	return optionsArr.indexOf(item) >= index;
+});
